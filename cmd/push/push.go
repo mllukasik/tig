@@ -2,8 +2,8 @@ package push
 
 import (
 	"fmt"
+	"github.com/mllukasik/tig/git"
 	"github.com/spf13/cobra"
-	"tig/git"
 )
 
 var PushCmd = &cobra.Command{

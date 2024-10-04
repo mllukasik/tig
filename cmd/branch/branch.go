@@ -2,9 +2,9 @@ package branch
 
 import (
 	"fmt"
+	"github.com/mllukasik/tig/git"
+	"github.com/mllukasik/tig/view/app"
 	"github.com/spf13/cobra"
-	"tig/git"
-	"tig/view/app"
 )
 
 var BranchCmd = &cobra.Command{

@@ -1,4 +1,4 @@
-module tig
+module github.com/mllukasik/tig
 
 go 1.22.5
 

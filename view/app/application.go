@@ -1,8 +1,7 @@
 package app
 
 import (
-	"tig/view/branch"
-
+	"github.com/mllukasik/tig/view/branch"
 	"github.com/rivo/tview"
 )
 

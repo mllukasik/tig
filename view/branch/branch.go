@@ -3,10 +3,10 @@ package branch
 import (
 	"fmt"
 	"strconv"
-	"tig/git"
-	"tig/view"
 
 	"github.com/gdamore/tcell/v2"
+	"github.com/mllukasik/tig/git"
+	"github.com/mllukasik/tig/view"
 	"github.com/rivo/tview"
 )
 

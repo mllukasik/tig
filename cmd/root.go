@@ -1,9 +1,9 @@
 package cmd
 
 import (
+	"github.com/mllukasik/tig/cmd/branch"
+	"github.com/mllukasik/tig/cmd/push"
 	"github.com/spf13/cobra"
-	"tig/cmd/branch"
-	"tig/cmd/push"
 )
 
 var rootCmd = &cobra.Command{

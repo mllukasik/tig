@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/mllukasik/tig/cmd"
 	"os"
-	"tig/cmd"
 )
 
 func main() {
