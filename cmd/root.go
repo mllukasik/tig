@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"tig/cmd/branch"
+	"tig/cmd/push"
 	"tig/cmd/version"
 
 	"github.com/spf13/cobra"
@@ -22,4 +23,5 @@ func Execute() error {
 func init() {
 	rootCmd.AddCommand(version.VersionCmd)
 	rootCmd.AddCommand(branch.BranchCmd)
+	rootCmd.AddCommand(push.PushCmd)
 }
