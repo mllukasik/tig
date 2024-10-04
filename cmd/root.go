@@ -1,8 +1,10 @@
 package cmd
 
 import (
-	"github.com/spf13/cobra"
+	"tig/cmd/branch"
 	"tig/cmd/version"
+
+	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
@@ -19,4 +21,5 @@ func Execute() error {
 
 func init() {
 	rootCmd.AddCommand(version.VersionCmd)
+	rootCmd.AddCommand(branch.BranchCmd)
 }
